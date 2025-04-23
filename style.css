@@ -128,7 +128,7 @@ nav a:hover {
 }
 
 
-/*container use in the first category in the foodpage*/
+/*this is the contair that i used in the food page , kanang nag una na 4*/
 .second-container {
     display: flex;
     justify-content: center;
@@ -163,4 +163,44 @@ nav a:hover {
     object-fit: cover;
 }
 
+.origin-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 3rem;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    margin: 3rem auto;
+    max-width: 1200px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+}
 
+.origin-image {
+    flex: 1 1 40%;
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.origin-text {
+    flex: 1 1 55%;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.origin-text h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #70b3ff;
+}
+
+.origin-text p {
+    margin-bottom: 1.5rem;
+}
